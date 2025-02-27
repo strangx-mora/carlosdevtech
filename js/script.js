@@ -35,3 +35,12 @@ window.addEventListener("resize", function(){
     }
 
 })
+
+// Seleccionar el botón de menú y el contenedor de navegación
+const btnMenu = document.getElementById("btn_menu");
+const nav = document.getElementById("nav");
+
+// Agregar un evento de clic para alternar la clase 'menu-active'
+btnMenu.addEventListener("click", () => {
+    nav.classList.toggle("menu-active");
+});
