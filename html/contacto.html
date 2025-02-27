@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Carlos Desing</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Carlos Tech Dev</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Inicio</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Sección de Contacto -->
+    <section class="contact-section">
+        <div class="contact-header">
+            <h2>Contáctanos</h2>
+            <p>Nos encantaría saber de ti. ¿Tienes preguntas o una idea en mente? ¡Escríbenos!</p>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <div class="contact-form-container">
+            <form action="../php/procesar_contacto.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </div>
+
+        <!-- Información de Contacto -->
+        <div class="contact-info">
+            <h3>Otras formas de contactarnos</h3>
+            <p><strong>Teléfono:</strong> +52 613 128 0063</p>
+            <p><strong>Correo:</strong> luiscarlosmoramuril063@gmail.com</p>
+            
+        </div>
+    </section>
+
+    <br>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Carlos Tech Dev | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

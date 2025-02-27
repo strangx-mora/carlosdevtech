@@ -1,0 +1,25 @@
+
+/* Servicios */
+.services {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.service-item h3 {
+    margin-bottom: 10px;
+}
