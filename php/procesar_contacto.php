@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             
             // Ejecutar la consulta
             if ($stmt->execute()) {
-                header("Location: http://localhost/Portada/index.html?mensaje=success");
+                header("Location:/Portada/index.html?mensaje=success");
 
             } else {
                 echo "Error al enviar el mensaje: " . $stmt->error;
@@ -45,6 +45,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+
+// Cerrar la conexión
+$conn->close();
+?>
+
 
 // Cerrar la conexión
 $conn->close();
